@@ -1,7 +1,7 @@
 <?php
 $servidor = "localhost";
-$usuario = "root";     // O el usuario que tengas configurado
-$password = "tu_password"; // PON AQUÍ TU CONTRASEÑA DE MYSQL
+$usuario = "rubveg";     // O el usuario que tengas configurado
+$password = "Tallerruben12!"; // PON AQUÍ TU CONTRASEÑA DE MYSQL
 $bd = "taller_ruben";
 
 $conn = new mysqli($servidor, $usuario, $password, $bd);

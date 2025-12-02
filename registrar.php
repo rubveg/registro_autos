@@ -13,7 +13,7 @@ $sql = "INSERT INTO autos (propietario, email, placas, modelo, descripcion_servi
 
 if ($conn->query($sql) === TRUE) {
     
-    // 2. Enviar Correo (Simulación básica para proyecto escolar)
+    // 2. Enviar Correo
     $to = $email;
     $subject = "Confirmacion de Servicio - Taller Ruben";
     $message = "Hola $propietario,\n\nHemos registrado tu $modelo con placas $placas para servicio: $descripcion.\n\nGracias por confiar en nosotros.";
