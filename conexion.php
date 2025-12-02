@@ -1,6 +1,6 @@
 <?php
 $servidor = "localhost";
-$usuario = "rubveg";     // O el usuario que tengas configurado
+$usuario = "ruben";     // O el usuario que tengas configurado
 $password = "Tallerruben12!"; // PON AQUÍ TU CONTRASEÑA DE MYSQL
 $bd = "taller_ruben";
 
